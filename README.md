@@ -50,29 +50,6 @@ This is not a basic RAG pipeline. It implements:
 
 ---
 
-## 🔄 Pipeline Flow
-
-```mermaid
-graph TD
-    A[User Query] --> B[analyze_query]
-    B -->|Simple| C[creator_response]
-    B -->|Complex| D[transform_query]
-    D --> E[embed_query]
-    E --> F[retrieve]
-    F --> G[grade_documents]
-    G -->|Irrelevant| H[rewrite_query]
-    H --> E
-    G -->|Relevant| I[generate]
-    I --> J[grade_generation]
-    J -->|Poor quality| H
-    J -->|Good quality| K[update_memory]
-    K --> L[text_to_speech]
-    C --> L
-    L --> M[finalize]
-    M --> N[__end__]
-```
-
----
 
 ## 🛠️ Tech Stack
 
