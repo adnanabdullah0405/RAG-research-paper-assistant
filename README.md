@@ -68,7 +68,7 @@ This is not a basic RAG pipeline. It implements:
 
 ## 📸 Demo
 
-> 🎥 [Watch Demo](results/demo-recording.mp4)
+> 🎥  [![Watch Demo](https://img.shields.io/badge/▶_Watch_Demo-Google_Drive-blue?style=for-the-badge)](https://drive.google.com/file/d/1hiGtf0361TNsJriugue9tc2PKHYSd92C/view?usp=sharing)
 
 ---
 
